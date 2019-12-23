@@ -1,7 +1,8 @@
 pipeline {
   agent none
   stages {
-    stage('') {
+    stage('error') {
+      agent any
       steps {
         sh 'echo "a"'
       }
